@@ -1,3 +1,5 @@
+from event import EnrollmentCertificateIssuedEvent
+
 class University:
     def __init__(self, name, address, phone_number, email):
         self.name = name
